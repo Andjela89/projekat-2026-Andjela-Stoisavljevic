@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace projekat_2026_Andjela_Stoisavljevic
 {
     public partial class Login : Form
@@ -20,6 +21,11 @@ namespace projekat_2026_Andjela_Stoisavljevic
         private void Login_Load(object sender, EventArgs e)
         {
             //Andjela Stoisavljevic
+        }
+
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
