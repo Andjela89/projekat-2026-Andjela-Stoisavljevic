@@ -12,8 +12,8 @@ namespace projekat_2026_Andjela_Stoisavljevic
     {
         static public SqlConnection connect()
         {
-            string CS = ConfigurationManager.ConnectionStrings["skola"];
-            return null;
+            string CS = ConfigurationManager.ConnectionStrings["skola"].ConnectionString;
+            return new SqlConnection(CS);
         }
     }
 }
